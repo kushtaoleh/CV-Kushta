@@ -28,5 +28,9 @@ label{
     margin: 0; /* Reset default margin (it has some value at the start */
     text-decoration: none; /* You can play around values to change, for example under line */
     text-transform: none; /* You can use capitalize to change it if there is need */
+}
+
+/* Box Model */
+.social{
 
 }
