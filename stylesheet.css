@@ -31,6 +31,14 @@ label{
 }
 
 /* Box Model */
-.social{
+.container{
+    max-width: 500px;
+    margin: auto;
+}
 
+.social{
+    background: pink;
+    padding: 15px;
+    border: 5px solid grey;
+    margin: 20px;
 }
