@@ -3,7 +3,6 @@
 body{
     background-color: #f1f1f1;
     color: #0f141e;
-
     font-size: 16px; /* Good mannerisms in coding */
     
     font: normal 16px "Roboto", sans-serif; /* Shorthand for setting fonts */
@@ -15,9 +14,19 @@ body{
     box-shadow: 5px -2px 15px 5px rgba(0,0,0,0.25);
 }
 
+p,
+figcaption,
+li,
+th,
+td,
+label{
+    letter-spacing: 1.92px; /* Adhering to guidelines set by (W3C), which recommend letter spacing of at least 0.12 times the font size, here 16px*/
+}
+
 .head_wrap p{
     color: #86898f;
     margin: 0; /* Reset default margin (it has some value at the start */
     text-decoration: none; /* You can play around values to change, for example under line */
     text-transform: none; /* You can use capitalize to change it if there is need */
+
 }
