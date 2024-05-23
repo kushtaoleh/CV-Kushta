@@ -14,3 +14,10 @@ body{
     border-radius: 5%;
     box-shadow: 5px -2px 15px 5px rgba(0,0,0,0.25);
 }
+
+.head_wrap p{
+    color: #86898f;
+    margin: 0; /* Reset default margin (it has some value at the start */
+    text-decoration: none; /* You can play around values to change, for example under line */
+    text-transform: none; /* You can use capitalize to change it if there is need */
+}
