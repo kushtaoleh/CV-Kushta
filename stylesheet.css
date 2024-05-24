@@ -8,6 +8,7 @@ body{
     font: normal 16px "Roboto", sans-serif; /* Shorthand for setting fonts */
 }
 
+
 .avatar{
     width: 250px;
     border-radius: 5%;
@@ -36,9 +37,9 @@ label{
     margin: auto;
 }
 
-.social{
+/* .social{
     background: pink;
-    padding: 15px;
+    padding: 15px 40px;
     border: 5px solid grey;
     margin: 20px;
-}
+} */
