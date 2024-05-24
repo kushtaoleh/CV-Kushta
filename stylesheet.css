@@ -1,13 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+#last{
+    margin-top: 100px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     background-color: #f1f1f1;
     color: #0f141e;
     font-size: 16px; /* Good mannerisms in coding */
-    
+    padding-top: 30px;
     font: normal 16px "Roboto", sans-serif; /* Shorthand for setting fonts */
 }
-
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: red;
+}
 
 .avatar{
     width: 250px;
@@ -15,13 +33,15 @@ body{
     box-shadow: 5px -2px 15px 5px rgba(0,0,0,0.25);
 }
 
+
+/* Adhering to guidelines set by (W3C), which recommend letter spacing of at least 0.12 times the font size, here 16px*/
 p,
 figcaption,
 li,
 th,
 td,
 label{
-    letter-spacing: 1.92px; /* Adhering to guidelines set by (W3C), which recommend letter spacing of at least 0.12 times the font size, here 16px*/
+    letter-spacing: 1.92px; 
 }
 
 .head_wrap p{
@@ -29,6 +49,9 @@ label{
     margin: 0; /* Reset default margin (it has some value at the start */
     text-decoration: none; /* You can play around values to change, for example under line */
     text-transform: none; /* You can use capitalize to change it if there is need */
+}
+.head_wrap{
+    margin-bottom: 20px;
 }
 
 /* Box Model */
@@ -43,3 +66,36 @@ label{
     border: 5px solid grey;
     margin: 20px;
 } */
+
+.bg-yellow{
+    background-color: #fff9dc;
+}
+
+.bg-green{
+    background-color: #e5ffe7;
+}
+
+.bg-red{
+    background-color: #ffe5e5;
+}
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2{
+    margin-bottom: 10px ;
+}
+
+.table{
+    background-color: #F5F7FD;
+    border-collapse: collapse;
+    border: 2px solid #D4DCF7;
+}
+th,
+td{
+    border: 1px solid #D4DCF7;
+    text-align: left;
+    padding: 7px;
+}
