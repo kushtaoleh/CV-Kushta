@@ -1,42 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-#last{
-    margin-top: 100px; /* To be able to scroll more */
+
+#last {
+    margin-top: 100px;
+    /* To be able to scroll more */
 }
 
-body{
+body {
     background-color: #f1f1f1;
     color: #0f141e;
-    font-size: 16px; /* Good mannerisms in coding */
+    font-size: 16px;
+    /* Good mannerisms in coding */
     padding-top: 30px;
-    font: normal 16px "Roboto", sans-serif; /* Shorthand for setting fonts */
+    font: normal 16px "Roboto", sans-serif;
+    /* Shorthand for setting fonts */
 }
 
-.container{
-    max-width: 500px; 
+.container {
+    max-width: 600px;
     /* A little bit of compatibility (width can be less then 500px, but not more.*/
-    
-    margin: auto; 
+
+    margin: auto;
     /* Centering content */
 }
 
-a{
+a {
     color: black;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
-a:active{
+
+a:active {
     color: blue;
 }
-a:visited{
+
+a:visited {
     color: red;
 }
 
-.avatar{
-    width: 250px;
+.avatar {
+    width: 220px;
     border-radius: 5%;
-    box-shadow: 5px -2px 15px 5px rgba(0,0,0,0.25);
+    box-shadow: 5px -2px 15px 5px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -46,19 +53,43 @@ figcaption,
 li,
 th,
 td,
-label{
-    letter-spacing: 1.92px; 
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 1.8px;
 }
 
 /* Header design and settings */
-.head_wrap p{
+.head_wrap p {
     color: #86898f;
-    margin: 0; /* Reset default margin (it has some value at the start */
-    text-decoration: none; /* You can play around values to change, for example under line */
-    text-transform: none; /* You can use capitalize to change it if there is need */
+    margin: 0;
+    /* Reset default margin (it has some value at the start */
+    text-decoration: none;
+    /* You can play around values to change, for example under line */
+    text-transform: none;
+    /* You can use capitalize to change it if there is need */
 }
-.head_wrap{
+
+.head_wrap {
     margin-bottom: 20px;
+}
+
+.head_wrap p {
+    margin-bottom: 25px;
+}
+
+.head_wrap .socials img {
+    width: 20px;
+}
+
+.head_wrap .socials {
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 /* Header design and settings */
@@ -72,40 +103,57 @@ label{
 } */
 
 /* Standard classes creation */
-.bg-yellow{
+.bg-yellow {
     background-color: #fff9dc;
 }
 
-.bg-green{
+.bg-green {
     background-color: #e5ffe7;
 }
 
-.bg-red{
+.bg-red {
     background-color: #ffe5e5;
 }
 
-.card{
+.card {
     padding: 15px 20px;
     margin-bottom: 20px;
     border-radius: 20px;
 }
-.card h2{
-    margin-bottom: 10px ;
+
+.card h2 {
+    margin-bottom: 10px;
 }
 
 /* Standard classes creation */
 
 
 /* Table design */
-.table{
+.table {
     background-color: #F5F7FD;
     border-collapse: collapse;
     border: 2px solid #D4DCF7;
+    width: 100%;
 }
+
 th,
-td{
+td {
     border: 1px solid #D4DCF7;
     text-align: left;
     padding: 7px;
 }
+
 /* Table design */
+
+
+.hobby td {
+    color: #86898f;
+}
+
+.hobby tr:nth-child(odd) {
+    background-color: #dcdee3;
+}
+
+.exp th {
+    border-bottom: 3.5px solid #dcdee3;
+}
