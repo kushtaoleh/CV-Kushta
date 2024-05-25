@@ -157,3 +157,39 @@ td {
 .exp th {
     border-bottom: 3.5px solid #dcdee3;
 }
+
+.contact{
+    display: block;
+}
+.contact h2{
+    margin-bottom: 25px;
+}
+.contact textarea{
+    width: 200px;
+}
+.contact .message_input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 25px;
+}
+.email_input{
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+#send{
+    width: 100px;
+    height: 25px;
+    background-color: #0f141e;
+    color: #D4DCF7;
+}
+#send:hover{
+    background-color: #86898f;
+}
+#send:active{
+    background-color: #696b70;
+}
