@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 #last{
-    margin-top: 100px;
+    margin-top: 100px; /* To be able to scroll more */
 }
-/* *{
-    padding: 0;
-    margin: 0;
-} */
+
 body{
     background-color: #f1f1f1;
     color: #0f141e;
@@ -13,6 +10,15 @@ body{
     padding-top: 30px;
     font: normal 16px "Roboto", sans-serif; /* Shorthand for setting fonts */
 }
+
+.container{
+    max-width: 500px; 
+    /* A little bit of compatibility (width can be less then 500px, but not more.*/
+    
+    margin: auto; 
+    /* Centering content */
+}
+
 a{
     color: black;
     text-decoration: none;
@@ -44,6 +50,7 @@ label{
     letter-spacing: 1.92px; 
 }
 
+/* Header design and settings */
 .head_wrap p{
     color: #86898f;
     margin: 0; /* Reset default margin (it has some value at the start */
@@ -54,11 +61,8 @@ label{
     margin-bottom: 20px;
 }
 
-/* Box Model */
-.container{
-    max-width: 500px;
-    margin: auto;
-}
+/* Header design and settings */
+
 
 /* .social{
     background: pink;
@@ -67,6 +71,7 @@ label{
     margin: 20px;
 } */
 
+/* Standard classes creation */
 .bg-yellow{
     background-color: #fff9dc;
 }
@@ -88,6 +93,10 @@ label{
     margin-bottom: 10px ;
 }
 
+/* Standard classes creation */
+
+
+/* Table design */
 .table{
     background-color: #F5F7FD;
     border-collapse: collapse;
@@ -99,3 +108,4 @@ td{
     text-align: left;
     padding: 7px;
 }
+/* Table design */
